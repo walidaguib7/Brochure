@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.Mycontainer {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+:root {
+  --primary: #0080e1;
+  --secondary: #7e5cdc;
+}
+
+
+
+.title {
+  position: relative;
+}
+
+.title::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  bottom: -5px;
+  left: calc(50% - 170px);
+  background-color: var(--primary);
+  transition: 0.3s;
+}
+
+.title:hover::after {
+  width: 32%;
+  height: 2px;
+}

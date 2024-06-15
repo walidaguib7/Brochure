@@ -1,0 +1,23 @@
+.card:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.card:hover .cards {
+
+}
+
+
+.cards {
+    display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 10px;
+}
+
+.Services .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+}
