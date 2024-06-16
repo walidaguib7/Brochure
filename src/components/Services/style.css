@@ -5,13 +5,11 @@
   margin-right: 5px;
 }
 
-.card:hover .cards {
 
-}
 
 
 .cards {
-    display: grid;
+  display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 10px;
 }

@@ -10,5 +10,7 @@ export function cn(...inputs: ClassValue[]) {
 }
 
 
+export const ImageUrl = "http://localhost:5171/MyImages/";
+
 
 
