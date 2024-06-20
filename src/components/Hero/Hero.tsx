@@ -26,7 +26,13 @@ const Hero = () => {
           </p>
           <Modal />
         </div>
-        <Image width={500} height={500} src={"/Landing.png"} alt={""} />
+        <Image
+          width={500}
+          height={500}
+          src={"/Landing.png"}
+          alt={""}
+          className="img"
+        />
       </section>
     </div>
   );

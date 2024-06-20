@@ -52,3 +52,20 @@
   margin-left: 5px;
   margin-right: 5px;
 }
+
+.img {
+  animation: up-down 3s linear infinite;
+  position: relative;
+}
+
+@keyframes up-down {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: -20px;
+  }
+  100% {
+    top: 0;
+  }
+}

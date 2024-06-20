@@ -14,7 +14,7 @@ const AboutUs = () => {
             alt="Team Image illustration"
             width={500}
             height={500}
-            className="basis-[50%]"
+            className="basis-[50%] img"
           />
           <FaqList />
         </div>
